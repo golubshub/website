@@ -31,8 +31,8 @@ plugins:
 defaults:
   -
   scope:
-    path:
-      type: posts
+    path: ""
+      type: "posts"
       values:
         layout: post
         permalink: /:title/
