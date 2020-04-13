@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAIA,KACE","file":"styles.377d94f7.css","sourceRoot":"..","sourcesContent":["$background-color: #f8f8f8;\n$text-color: #555555;\n$highlight-color: #00a838;\n\nbody {\n  background-color: $highlight-color;\n}\n"]}
