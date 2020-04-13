@@ -1,0 +1,27 @@
+{
+  "name": "golubs_website",
+  "version": "1.0.0",
+  "description": "Webseite golubs.de https://makssyz.github.io/golubs/",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "rm -rf dist && parcel build index.html --public-url https://makssyz.github.io/golubs-website/",
+    "deploy": "gh-pages -d dist",
+    "dev": "parcel ./index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makssyz/golubs-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makssyz/golubs-website/issues"
+  },
+  "homepage": "https://github.com/makssyz/golubs-website",
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.3"
+  }
+}
