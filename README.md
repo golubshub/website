@@ -1,3 +1,3 @@
 # golubs
-Webseite golubs.de
-https://makssyz.github.io/golubs-website/
+Webseite https://golubs.de
+https://golubshub.github.io/website/
